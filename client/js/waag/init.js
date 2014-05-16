@@ -1,18 +1,23 @@
 var WAAG = WAAG || {};
 
 var map, tiles, heat;
+var max, min;
+
+var draw=false;
 var dataSCK=[];
-draw=false;
+
+//wg30.waag.org:8080
 
 var descriptionsSCK = [
-    "humidity",
-    "temperature",
+    "noise",
+	"nets",
+	"temperature",
     "co",
     "no2",
     "light",
-    "noise",
-    "nets"
-	]
+	"humidity"
+	];
+var activeValue=descriptionsSCK [0];	
 
 function onWindowResize(event) {
 	console.log('resize');
@@ -34,32 +39,15 @@ function init(){
 	    id: 'examples.map-20v6611k'
 	}).addTo(map);
 	
-	d3.json("data/sck.json", function(data){
-		data.results.forEach(function(d){
+	d3.json("http://wg30.waag.org:8080", function(data){
 		
-			var valuesSCK = {
-	            humidity: 52.9,
-	            temperature: 21.4,
-	            co: 202.2,
-	            no2: 15.9,
-	            light: 5.4,
-	            noise: 50,
-	            nets: 12
-			}
-			
-			var value=parseInt(100+(Math.random()*100));
-			for(var i=0; i<value; i++){
-				var entry=[];
-				entry.push(d.geom.coordinates[1]);
-				entry.push(d.geom.coordinates[0]);
-				entry.push(valuesSCK);
-				
-				dataSCK.push(entry);
-			}
-		});
 
 		heat = L.heatLayer([]).addTo(map);
-		updateHeatLayers(dataSCK);
+		createSelectList();
+		dataSCK=data;
+		
+		updateDataSet(dataSCK);
+		
 		// draw = true;
 		// map.on({
 		//     movestart: function () { draw = false; },
@@ -71,10 +59,45 @@ function init(){
 		//     }
 		// });
 		
-		createSelectList();
+		
 		
 	});
 };
+
+function updateDataSet(dataSCK){
+
+    max =  d3.max(dataSCK.features, function(d) { return d.properties[activeValue]; });
+    min =  d3.min(dataSCK.features, function(d) { 
+		if(d.properties[activeValue]<1){
+			console.log(d);
+		}
+		
+		if(d.properties[activeValue]!=0){
+			return d.properties[activeValue]; 
+		}
+		
+	});
+	
+	console.log("max ="+max+" --> min="+min);
+	var data=[];
+	dataSCK.features.forEach(function(d){		
+		var value=d.properties[activeValue]/max;
+		
+		value=parseInt(1000*value);
+		//console.log(value);
+		for(var i=0; i<value; i++){
+			var entry=[];
+			entry.push(d.geometry.coordinates[1]);
+			entry.push(d.geometry.coordinates[0]);
+			entry.push(d.properties);
+			
+			data.push(entry);
+		}
+	});
+	console.log(data.length)
+	updateHeatLayers(data);
+	
+}
 
 function updateHeatLayers(data){
 
@@ -82,15 +105,30 @@ function updateHeatLayers(data){
 			maxZoom: 18,
 	        radius: 50,
 	        blur: 16,
-	        max: 2+(Math.random()*5.0)
+	        max: 5.0
 	    }
 
+	var mySquare=d3.select("#tweenRefObject");		  
+	  mySquare.transition()
+	    .duration(2000)
+	    .styleTween("opacity", myTweenFunction ); 
+
 	heat.setOptions(options);
-	heat.setLatLngs(data);
 	
+	heat.setLatLngs(data);
+
 }
 
-function createSelectList() {
+function myTweenFunction(d, i, a) {
+  console.log( a ); // returns 60, the current value (value at start)
+  
+  //var year = d3.interpolateNumber(thisyear, 2009);
+  //return function(t) { displayYear(year(t)); };
+  
+  return d3.interpolate(a, 0);
+}	
+
+function createSelectList(data) {
 	console.log("adding select list");
 
 	d3.select("body").append("div")
@@ -103,7 +141,8 @@ function createSelectList() {
 		.attr("class", "select")
 		.on("change", function() {
 			console.log(this.value);
-			updateHeatLayers(dataSCK)
+			activeValue=this.value;
+			updateDataSet(dataSCK)
 			
 		})
 		.on("mouseover", function(d) {
@@ -124,6 +163,10 @@ function createSelectList() {
 		.text(function(d) {
 			return d
 		})
+		
+		d3.select("body").append("div")
+			.attr("id", "tweenRefObject");	
+		
 
 
 

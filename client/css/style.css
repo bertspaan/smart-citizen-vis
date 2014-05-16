@@ -81,6 +81,14 @@ a { color: #0077ff; }
    /*background-color: #000;*/
 }
 
+#tweenRefObject{
+	position:absolute;
+	width:40px;
+	height:40px;
+	background:#000;
+	right:10px;
+	top:10px;
+}
 
 
 
