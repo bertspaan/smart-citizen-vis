@@ -34,6 +34,55 @@ h1, h2, h3, h4 {
 }
 a { color: #0077ff; }
 
+#footer {
+  position:absolute;		
+  bottom: 40px;
+  right: 20px;
+  text-align: right;
+}
+
+.layerSelector {
+    position:absolute;
+    width:160px;
+    left:4em;
+    top:1em;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 1px;*/
+    overflow: hidden;
+/*    background: transparent;*/
+    background: url("../images/icon_down-16.png") no-repeat 0% 50%;
+}
+
+
+
+.layerSelector select {
+    
+    font-family:inherit;
+    font-size:0.8em;
+    color:#666;
+    left:2em;
+    padding: 0.5em 1.25em;
+    
+/*    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;*/
+}
+
+.layerSelector select:focus {
+    outline: none;
+    font-family:inherit;
+    font-size:0.8em;
+    border-radius: 0px;
+    
+}
+.layerSelector select option {
+   /*background-color: #000;*/
+}
+
+
+
 
 .tooltip {   
   position: absolute;           
