@@ -42,6 +42,7 @@ class SCK < Sinatra::Base
 
   after do
     content_type 'application/json'
+    response.headers['Access-Control-Allow-Origin'] = '*'
   end
 
   get '/' do
