@@ -1,19 +1,6 @@
 # encoding: utf-8
 require 'sinatra'
 
-# configure do | sinatraApp |
-#   set :environment, :production
-#   if defined?(PhusionPassenger)
-#     PhusionPassenger.on_event(:starting_worker_process) do |forked|
-#       if forked
-#         # We're in smart spawning mode.
-#         #CitySDK_Services.memcache_new
-#       end
-#       # Else we're in direct spawning mode. We don't need to do anything.
-#     end
-#   end
-# end
-
 class SCK < Sinatra::Base
 
   @@memcached = Dalli::Client.new('127.0.0.1:11211', {expires_in: 3600, compress: true, namespace: 'sck'})
