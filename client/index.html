@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SCK- demo</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+
+<div id="map"></div>
+
+<script src="js/leaflet-heat.js"></script>
+<script src="js/waag/init.js"></script>
+<script type="text/javascript" src="js/d3/d3.v3.min.js"></script>
+
+<script src="http://leaflet.github.io/Leaflet.markercluster/example/realworld.10000.js"></script>
+
+<script type="text/javascript">
+	
+	var execute = function () {					
+		init();   
+	};
+
+	if ( !!(window.addEventListener) )
+	window.addEventListener("DOMContentLoaded", execute)
+	else // MSIE
+	window.attachEvent("onload", execute)
+	
+</script>
+</body>
+</html>

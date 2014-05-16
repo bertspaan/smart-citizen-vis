@@ -1,0 +1,1330 @@
+{
+    "next_page": -1,
+    "pages": 1,
+    "per_page": 1000,
+    "record_count": 66,
+    "results": [
+        {
+            "cdk_id": "sck.1175",
+            "geom": {
+                "coordinates": [
+                    4.801177700000039,
+                    52.363056
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1175"
+                    }
+                }
+            },
+            "name": "the Beach SCK",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1149",
+            "geom": {
+                "coordinates": [
+                    4.971545099999958,
+                    52.3079989
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1149"
+                    }
+                }
+            },
+            "name": "2e kekerstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1148",
+            "geom": {
+                "coordinates": [
+                    4.971545099999958,
+                    52.3079989
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1148"
+                    }
+                }
+            },
+            "name": "",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1140",
+            "geom": {
+                "coordinates": [
+                    4.878704700000071,
+                    52.3638211
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1140"
+                    }
+                }
+            },
+            "name": "Perrysport",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1136",
+            "geom": {
+                "coordinates": [
+                    4.866176054992702,
+                    52.36944725541997
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1136"
+                    }
+                }
+            },
+            "name": "korte blekersstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1134",
+            "geom": {
+                "coordinates": [
+                    4.895167899999933,
+                    52.3702157
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1134"
+                    }
+                }
+            },
+            "name": "Gerard Doustraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1126",
+            "geom": {
+                "coordinates": [
+                    4.866285873327547,
+                    52.36952788528618
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1126"
+                    }
+                }
+            },
+            "name": "korte blekersstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1121",
+            "geom": {
+                "coordinates": [
+                    4.902264500000001,
+                    52.3794289
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1121"
+                    }
+                }
+            },
+            "name": "Amsterdam Smart City",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1119",
+            "geom": {
+                "coordinates": [
+                    4.872607300000027,
+                    52.3662855
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1119"
+                    }
+                }
+            },
+            "name": "Bilder & de Clerq",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1115",
+            "geom": {
+                "coordinates": [
+                    4.851194200000009,
+                    52.352346
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1115"
+                    }
+                }
+            },
+            "name": "Legmeerstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1105",
+            "geom": {
+                "coordinates": [
+                    4.935522600000013,
+                    52.3636588
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1105"
+                    }
+                }
+            },
+            "name": "LamponghoekLombok",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1104",
+            "geom": {
+                "coordinates": [
+                    4.971545099999958,
+                    52.3079989
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1104"
+                    }
+                }
+            },
+            "name": "guldenkruis",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1100",
+            "geom": {
+                "coordinates": [
+                    4.858611099999962,
+                    52.3463889
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1100"
+                    }
+                }
+            },
+            "name": "De Punt Quellijn",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1098",
+            "geom": {
+                "coordinates": [
+                    4.882399899999996,
+                    52.3809236
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1098"
+                    }
+                }
+            },
+            "name": "Willemsstraat 145",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1090",
+            "geom": {
+                "coordinates": [
+                    4.895167899999933,
+                    52.3702157
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1090"
+                    }
+                }
+            },
+            "name": "De Rijkskas",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1078",
+            "geom": {
+                "coordinates": [
+                    4.88185180000005,
+                    52.3971813
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1078"
+                    }
+                }
+            },
+            "name": "Haparandasteiger Houthaven Amsterdam ",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1076",
+            "geom": {
+                "coordinates": [
+                    4.807797800000003,
+                    52.342911
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1076"
+                    }
+                }
+            },
+            "name": "Schaarbeekstraat 11",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1068",
+            "geom": {
+                "coordinates": [
+                    4.87415580000004,
+                    52.3746103
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1068"
+                    }
+                }
+            },
+            "name": "VOBV76",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1063",
+            "geom": {
+                "coordinates": [
+                    4.875862600000005,
+                    52.3540459
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1063"
+                    }
+                }
+            },
+            "name": "Nicolaas Maesschool Amsterdam",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1059",
+            "geom": {
+                "coordinates": [
+                    4.908244999999965,
+                    52.3579293
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1059"
+                    }
+                }
+            },
+            "name": "Amsterdam Weesperzijde",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1055",
+            "geom": {
+                "coordinates": [
+                    4.89333780000004,
+                    52.3828191
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1055"
+                    }
+                }
+            },
+            "name": "Amsterdam Smart City",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1048",
+            "geom": {
+                "coordinates": [
+                    4.870725999999991,
+                    52.3413599
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1048"
+                    }
+                }
+            },
+            "name": "Prinses Irenestraat 59",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1047",
+            "geom": {
+                "coordinates": [
+                    4.870725999999991,
+                    52.3413599
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1047"
+                    }
+                }
+            },
+            "name": "Prinses Irenestraat 59",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1046",
+            "geom": {
+                "coordinates": [
+                    4.84755819999998,
+                    52.3796356
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1046"
+                    }
+                }
+            },
+            "name": "Trouringhstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1045",
+            "geom": {
+                "coordinates": [
+                    4.857499999999959,
+                    52.36777780000001
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1045"
+                    }
+                }
+            },
+            "name": "Slatuinen",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1044",
+            "geom": {
+                "coordinates": [
+                    4.857499999999959,
+                    52.36777780000001
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1044"
+                    }
+                }
+            },
+            "name": "Slatuinen",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1043",
+            "geom": {
+                "coordinates": [
+                    4.857499999999959,
+                    52.36777780000001
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1043"
+                    }
+                }
+            },
+            "name": "Slatuinen",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1034",
+            "geom": {
+                "coordinates": [
+                    4.875751100000002,
+                    52.3721158
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1034"
+                    }
+                }
+            },
+            "name": "Kruising Rozengracht / Marnixstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1030",
+            "geom": {
+                "coordinates": [
+                    4.918333299999972,
+                    52.3911111
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1030"
+                    }
+                }
+            },
+            "name": "hyperion",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1028",
+            "geom": {
+                "coordinates": [
+                    4.837432600000057,
+                    52.3757688
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1028"
+                    }
+                }
+            },
+            "name": "Laan van Spartaan - next to A10",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1027",
+            "geom": {
+                "coordinates": [
+                    4.865125499999977,
+                    52.3615856
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1027"
+                    }
+                }
+            },
+            "name": "michael",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1023",
+            "geom": {
+                "coordinates": [
+                    4.874041799999986,
+                    52.3769478
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1023"
+                    }
+                }
+            },
+            "name": "Frederik Hendrikstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1009",
+            "geom": {
+                "coordinates": [
+                    4.901223800000025,
+                    52.3730719
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1009"
+                    }
+                }
+            },
+            "name": "Fish Market",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.1001",
+            "geom": {
+                "coordinates": [
+                    4.923774999999978,
+                    52.349614
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "1001"
+                    }
+                }
+            },
+            "name": "PieterNieuwlandCollege_SCK",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.997",
+            "geom": {
+                "coordinates": [
+                    4.918333299999972,
+                    52.3911111
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "997"
+                    }
+                }
+            },
+            "name": "Hyperion Lyceum",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.984",
+            "geom": {
+                "coordinates": [
+                    4.850731099999962,
+                    52.3716558
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "984"
+                    }
+                }
+            },
+            "name": "Mercatorstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.977",
+            "geom": {
+                "coordinates": [
+                    4.90632370000003,
+                    52.3431005
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "977"
+                    }
+                }
+            },
+            "name": "klubbenrijnstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.974",
+            "geom": {
+                "coordinates": [
+                    4.906991400000038,
+                    52.3759299
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "974"
+                    }
+                }
+            },
+            "name": "odepier",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.973",
+            "geom": {
+                "coordinates": [
+                    4.887929299999996,
+                    52.3796592
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "973"
+                    }
+                }
+            },
+            "name": "Roodedraeck",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.963",
+            "geom": {
+                "coordinates": [
+                    4.894064699999944,
+                    52.3697978
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "963"
+                    }
+                }
+            },
+            "name": "The Ladder Jacobs",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.962",
+            "geom": {
+                "coordinates": [
+                    4.906876600000032,
+                    52.3538338
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "962"
+                    }
+                }
+            },
+            "name": "Archiefterrein",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.961",
+            "geom": {
+                "coordinates": [
+                    4.949851800000033,
+                    52.3723088
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "961"
+                    }
+                }
+            },
+            "name": "1019WV",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.958",
+            "geom": {
+                "coordinates": [
+                    4.869369199999937,
+                    52.3633749
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "958"
+                    }
+                }
+            },
+            "name": "Poortgebouw WG-terrein",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.956",
+            "geom": {
+                "coordinates": [
+                    4.858746800000063,
+                    52.3686342
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "956"
+                    }
+                }
+            },
+            "name": "de Wending (van Kinsbergenstraat 56)",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.949",
+            "geom": {
+                "coordinates": [
+                    4.901058899999953,
+                    52.3867032
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "949"
+                    }
+                }
+            },
+            "name": "Prinsendam",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.948",
+            "geom": {
+                "coordinates": [
+                    4.9233203,
+                    52.3425304
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "948"
+                    }
+                }
+            },
+            "name": "Fahrenheitstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.947",
+            "geom": {
+                "coordinates": [
+                    5.007487800000035,
+                    52.350206
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "947"
+                    }
+                }
+            },
+            "name": "OBS Laterna Magica",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.946",
+            "geom": {
+                "coordinates": [
+                    4.933425400000033,
+                    52.3631784
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "946"
+                    }
+                }
+            },
+            "name": "Balistraat-3rdFloor",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.943",
+            "geom": {
+                "coordinates": [
+                    4.847403699999973,
+                    52.3510471
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "943"
+                    }
+                }
+            },
+            "name": "Katwijkstraat Balkon",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.940",
+            "geom": {
+                "coordinates": [
+                    4.805983900000001,
+                    52.3536785
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "940"
+                    }
+                }
+            },
+            "name": "Calandlyceum",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.937",
+            "geom": {
+                "coordinates": [
+                    4.850222400000007,
+                    52.37834480000001
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "937"
+                    }
+                }
+            },
+            "name": "Tijl Uilenspiegelstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.935",
+            "geom": {
+                "coordinates": [
+                    4.85284200000001,
+                    52.361882
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "935"
+                    }
+                }
+            },
+            "name": "Corantijnschool",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.930",
+            "geom": {
+                "coordinates": [
+                    4.869610800000032,
+                    52.3738296
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "930"
+                    }
+                }
+            },
+            "name": "van Reigersbergenstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.927",
+            "geom": {
+                "coordinates": [
+                    4.912289800000053,
+                    52.3449657
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "927"
+                    }
+                }
+            },
+            "name": "Amsteldijk, Rivierenbuurt",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.926",
+            "geom": {
+                "coordinates": [
+                    4.908816999999999,
+                    52.3688696
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "926"
+                    }
+                }
+            },
+            "name": "Wertheim Park Amsterdam",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.925",
+            "geom": {
+                "coordinates": [
+                    4.929858095458936,
+                    52.37129976166948
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "925"
+                    }
+                }
+            },
+            "name": "De Bakkerij",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.921",
+            "geom": {
+                "coordinates": [
+                    4.872374600000057,
+                    52.3823134
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "921"
+                    }
+                }
+            },
+            "name": "Van Boetzelaerstraat",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.910",
+            "geom": {
+                "coordinates": [
+                    4.925624999999968,
+                    52.371692
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "910"
+                    }
+                }
+            },
+            "name": "Mediamatic kit #2",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.909",
+            "geom": {
+                "coordinates": [
+                    4.925624999999968,
+                    52.371692
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "909"
+                    }
+                }
+            },
+            "name": "Mediamatic kit #1",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.838",
+            "geom": {
+                "coordinates": [
+                    4.889469200000008,
+                    52.3592899
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "838"
+                    }
+                }
+            },
+            "name": "Glimworm HQ",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.812",
+            "geom": {
+                "coordinates": [
+                    4.912120500000015,
+                    52.3670483
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "812"
+                    }
+                }
+            },
+            "name": "Plantagebuurt",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.810",
+            "geom": {
+                "coordinates": [
+                    5.004312900000059,
+                    52.3522239
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "810"
+                    }
+                }
+            },
+            "name": "AMS Haven IIburg",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.807",
+            "geom": {
+                "coordinates": [
+                    4.904179999999997,
+                    52.3728516
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "807"
+                    }
+                }
+            },
+            "name": "Oude Waal sensor",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.806",
+            "geom": {
+                "coordinates": [
+                    4.851876100000027,
+                    52.3768791
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "806"
+                    }
+                }
+            },
+            "name": "Erasmuspark",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.802",
+            "geom": {
+                "coordinates": [
+                    4.895167899999933,
+                    52.3702157
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "802"
+                    }
+                }
+            },
+            "name": "Dreamups #1",
+            "node_type": "node"
+        },
+        {
+            "cdk_id": "sck.462",
+            "geom": {
+                "coordinates": [
+                    4.900298,
+                    52.372807
+                ],
+                "type": "Point"
+            },
+            "layer": "sck",
+            "layers": {
+                "sck": {
+                    "data": {
+                        "sensorid": "462"
+                    }
+                }
+            },
+            "name": "Waag Society - de Waag",
+            "node_type": "node"
+        }
+    ],
+    "status": "success",
+    "url": "http://api.citysdk.waag.org/nodes?layer=sck&geom&per_page=1000"
+}
